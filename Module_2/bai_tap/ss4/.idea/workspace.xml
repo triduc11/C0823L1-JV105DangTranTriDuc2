@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="283ec984-4c2b-4d0f-bb56-2b601976377d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_1_xoa_phan_tu_trong_mang/Bai1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_2_them_phan_tu_vao_mang/Bai2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_3_gop_mang/Bai3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_4_max_mang_hai_chieu/Bai4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_5_min_mang_hai_chieu/Bai5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_6_sum_cot_mang_hai_chieu/Bai6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_7_sum_duong_cheo_chinh/Bai7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss3/src/bai_8_dem_ky_tu_giong_nhau_trong_chuoi/Bai8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2/src/bai_1_hien_thi_hinh/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/src/bai_1_hien_thi_hinh/Bai1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2Yd57r7yKZj5Nw0cQpMcwK7bV5i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss4/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="283ec984-4c2b-4d0f-bb56-2b601976377d" name="Changes" comment="" />
+      <created>1700842454677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700842454677</updated>
+      <workItem from="1700842455912" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
