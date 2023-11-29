@@ -10,7 +10,7 @@ public class Bai3 {
         int[] a = new int[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Hãy nhập mang 1 tai vi tri thu " + i);
+                System.out.println("Hãy nhập mang 1 tai vi tri thu " + i);
             a[i] = Integer.parseInt(scanner1.nextLine());
         }
         System.out.println("Hãy nhập số lượng phần từ trong mảng 2");
