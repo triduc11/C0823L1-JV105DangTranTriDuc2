@@ -8,7 +8,7 @@ public class StudentManager {
 
     static {
         students[0] = new Student(1, "DUC", 18);
-        students[1] = new Student(2, "KHANH", 19);
+        students[1] = new Student(2, "DUCK", 19);
         students[2] = new Student(3, "KYRIE", 18);
     }
 
@@ -51,7 +51,7 @@ public class StudentManager {
     public void showList() {
         for (int i = 0; i < students.length; i++) {
             if (students[i] != null) {
-                System.out.println(students[i]);
+                System.out.println((i + 1) + "." + students[i]);
             }
         }
     }
@@ -78,17 +78,17 @@ public class StudentManager {
         int idDelete = Integer.parseInt(scanner.nextLine());
         int index = -1;
         for (int i = 0; i < students.length; i++) {
-            if(students[i]!=null){
+            if (students[i] != null) {
                 if (students[i].getId() == idDelete) {
                     index = i;
                 }
             }
         }
         if (index != -1) {
-            for (int i = index; i < students.length-1; i++) {
+            for (int i = index; i < students.length - 1; i++) {
                 students[i] = students[i + 1];
             }
-            students[students.length-1 ] = null;
+            students[students.length - 1] = null;
         }
         showList();
     }
@@ -118,4 +118,3 @@ public class StudentManager {
 
     }
 }
-
