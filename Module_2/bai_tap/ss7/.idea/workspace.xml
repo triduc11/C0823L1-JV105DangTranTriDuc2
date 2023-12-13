@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75854036-1059-4406-8184-2a26fb2f1a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss6/src/bai_4_trien_khai_lop_triangle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss6/src/bai_4_trien_khai_lop_triangle/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss6/src/bai_4_trien_khai_lop_triangle/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_interface_Resizeable_cho_cac_lop_hinh_hoc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Colorable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_interface_Colorable_cho_cac_lop_hinh_hoc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/AbstractAndInterfaceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/animal/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/animal/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/edible/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/fruit/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/fruit/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_lop_animal_va_lop_interface_Edible/fruit/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_comparable_cho_cac_lop_hinh_hoc/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_comparable_cho_cac_lop_hinh_hoc/ComparableCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_comparable_cho_cac_lop_hinh_hoc/ComparableCircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_comparable_cho_cac_lop_hinh_hoc/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Comparator_so_sanh_cac_lop_hinh_hoc/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Comparator_so_sanh_cac_lop_hinh_hoc/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Comparator_so_sanh_cac_lop_hinh_hoc/CircleComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Comparator_so_sanh_cac_lop_hinh_hoc/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss8/ss8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="75854036-1059-4406-8184-2a26fb2f1a3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,6 +138,7 @@
       <workItem from="1702082209592" duration="605000" />
       <workItem from="1702291354478" duration="8384000" />
       <workItem from="1702299885801" duration="173000" />
+      <workItem from="1702435707014" duration="9000" />
     </task>
     <servers />
   </component>
