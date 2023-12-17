@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e46b953-68e9-4fbc-9afc-db05c85b716d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_1_Refactoring/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss9/ss9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_1_trien_khai_ArrayList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_1_trien_khai_ArrayList/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_giang/bai_1_trien_khai_List/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_giang/bai_1_trien_khai_List/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_giang/bai_2_trien_khai_LinkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9/src/bai_giang/bai_2_trien_khai_LinkedList/TestMyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +37,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss8/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss8/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss8_mvc.view.View" />
+      <module name="ss8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss8_mvc.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.View" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +82,9 @@
       <updated>1702291521284</updated>
       <workItem from="1702291522301" duration="1000" />
       <workItem from="1702435717880" duration="686000" />
+      <workItem from="1702637807113" duration="6209000" />
+      <workItem from="1702696962137" duration="2514000" />
+      <workItem from="1702703663675" duration="749000" />
     </task>
     <servers />
   </component>
