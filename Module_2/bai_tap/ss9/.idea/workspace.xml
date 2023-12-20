@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9160befd-2b16-4522-b78d-42c2d0604cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_ArrayList/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_1_trien_khai_ArrayList/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_LinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_trien_khai_LinkedList/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_trien_khai_List/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_trien_khai_List/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_trien_khai_LinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_trien_khai_LinkedList/TestMyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_1_dao_nguoc_phan_mang_tu_so_nguyen_su_dung_Stack/Integer/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_1_dao_nguoc_phan_mang_tu_so_nguyen_su_dung_Stack/String/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_1_dao_nguoc_phan_mang_tu_so_nguyen_su_dung_Stack/String_stack/Reserve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_2_dem_so_lan_xuat_hien_trong_mot_chuoi_bang_Map/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_4_trien_khai_Queue_su_dung_mang/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_4_trien_khai_Queue_su_dung_mang/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_5_trien_khai_Stack_su_dung_mang/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_5_trien_khai_Stack_su_dung_mang/StackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_6_chuyen_doi_thap_phan_sang_nhi_phan/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_giang/bai_1_trien_khai_Stack_su_dung_lop_LinkedList/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_giang/bai_1_trien_khai_Stack_su_dung_lop_LinkedList/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_giang/bai_2_trien_khai_Queue_Su_dung_lop_LinkedList/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_giang/bai_2_trien_khai_Queue_Su_dung_lop_LinkedList/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss10/src/bai_giang/bai_2_trien_khai_Queue_Su_dung_lop_LinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss10&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -126,6 +133,8 @@
       <workItem from="1702435729388" duration="1000" />
       <workItem from="1702700880926" duration="7596000" />
       <workItem from="1702825062250" duration="2356000" />
+      <workItem from="1702884032025" duration="28000" />
+      <workItem from="1702907129733" duration="8000" />
     </task>
     <servers />
   </component>
