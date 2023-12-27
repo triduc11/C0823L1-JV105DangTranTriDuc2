@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43ded82-1185-465a-852c-e1f1dfc227ca" name="Changes" comment="" />
+    <list default="true" id="a43ded82-1185-465a-852c-e1f1dfc227ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bai_1_InsertSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_2_InsertSortByStep/InsertSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_Bubble_Sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_BubbleSortByStep/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Selection_Sort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZtvTEzgCSdK3WM2Q3o0gPvvIEw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,10 +42,48 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss13/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.InsertSortByStep">
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_giang.bai_2_BubbleSortByStep.BubbleSortByStep" />
+      <module name="ss13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_giang.bai_2_BubbleSortByStep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_2_InsertSortByStep.InsertSortByStep" />
+      <module name="ss13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_2_InsertSortByStep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InsertSortByStep" />
+        <item itemvalue="Application.BubbleSortByStep" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703254199201</updated>
       <workItem from="1703254200205" duration="2000" />
+      <workItem from="1703679268105" duration="2348000" />
     </task>
     <servers />
   </component>
