@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43ded82-1185-465a-852c-e1f1dfc227ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bai_1_InsertSort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_2_InsertSortByStep/InsertSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_1_Bubble_Sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_2_BubbleSortByStep/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai_giang/bai_3_Selection_Sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a43ded82-1185-465a-852c-e1f1dfc227ca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/ss8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +87,7 @@
       <updated>1703254199201</updated>
       <workItem from="1703254200205" duration="2000" />
       <workItem from="1703679268105" duration="2348000" />
+      <workItem from="1703682379993" duration="47000" />
     </task>
     <servers />
   </component>
