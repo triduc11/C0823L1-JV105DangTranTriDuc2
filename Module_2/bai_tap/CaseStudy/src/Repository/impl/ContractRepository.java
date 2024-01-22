@@ -1,41 +1,52 @@
 package Repository.impl;
 
 import Model.Contract;
-import Model.Employee;
-import Repository.IContractRepository;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Objects;
+import java.util.Queue;
 
-public class ContractRepository implements IContractRepository<Contract> {
-    @Override
+public class ContractRepository {
+    private static Queue<Contract> contractQueue;
+    static {
+        contractQueue=new LinkedList<>();
+    }
+
     public void calculatePayment(Contract entity) {
-
     }
 
-    @Override
-    public void add(Contract entity) {
-
+    public void add(Contract contract) {
+        contractQueue.add(contract);
     }
 
-    @Override
-    public ArrayList<Contract> display() {
-        ArrayList<Contract> contracts =new ArrayList<>();
-        return contracts ;
+    public Queue<Contract> display() {
+        return new LinkedList<>(contractQueue);
     }
 
-    @Override
-    public Contract update(Contract entity) {
 
-        return null;
+    public Contract update(Contract contract) {
+        Queue<Contract> tempQueue = new LinkedList<>();
+        while (!contractQueue.isEmpty()) {
+            Contract contract1 = contractQueue.poll();
+            if (contract1.equals(contract)) {
+                tempQueue.add(contract);
+            } else {
+                tempQueue.add(contract1);
+            }
+        }
+
+        contractQueue.addAll(tempQueue);
+        return contract;
     }
 
-    @Override
-    public void delete(String id) {
 
-    }
-
-    @Override
-    public Contract findById(String id) {
+    public Contract findById(String bookingID) {
+        Queue<Contract> list = contractQueue;
+        for (Contract contract : list) {
+            if (Objects.equals(contract.getBookingId(), bookingID)) {
+                return contract;
+            }
+        }
         return null;
     }
 }

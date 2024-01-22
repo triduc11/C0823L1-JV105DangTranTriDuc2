@@ -6,10 +6,12 @@ import Service.impl.FacilityService;
 import java.util.ArrayList;
 
 public class FacilityController {
+
     FacilityService facilityService = new FacilityService();
 
 
     public void add(Facility facility) {
+
         facilityService.add(facility);
     }
 

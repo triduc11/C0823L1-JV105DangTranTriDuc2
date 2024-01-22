@@ -1,13 +1,12 @@
 package View;
 
-import Controller.CustomerController;
-import Controller.EmployeeController;
-import Controller.FacilityController;
+import Controller.*;
 import Model.*;
 import Utils.Valid;
 
-import java.util.List;
-import java.util.Scanner;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class FuramaView {
     public static void main(String[] args) {
@@ -406,6 +405,10 @@ public class FuramaView {
     }
 
     public static void displayBookingManagementMenu() {
+        BookingController bookingController = new BookingController();
+        CustomerController customerController = new CustomerController();
+        FacilityController facilityController = new FacilityController();
+        ContractController contractController = new ContractController();
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
@@ -420,18 +423,32 @@ public class FuramaView {
             switch (choice) {
                 case 1:
                     System.out.println("Adding a new booking");
+                    System.out.println("----List of Customers----");
+                    List<Customer> customers = customerController.findAll();
+                    displayCustomer(customers);
+                    System.out.println("----List of Facility----");
+                    List<Facility> facilityList = facilityController.displayFacilities();
+                    displayFacilities(facilityList);
+                    bookingController.add(inputDataBooking());
                     break;
                 case 2:
                     System.out.println("Displaying list of booking");
+                    TreeSet<Booking> bookingList = bookingController.findAll();
+                    displayListBooking(bookingList);
                     break;
                 case 3:
                     System.out.println("Creating a new contracts");
+                    contractController.add(inputDataContract());
                     break;
                 case 4:
                     System.out.println("Displaying list of contracts");
+                    Queue<Contract> contractList = contractController.display();
+                    displayListContract(contractList);
                     break;
                 case 5:
                     System.out.println("Editing contracts");
+                    System.out.println("-Enter bookingID:");
+                    contractController.update(scanner.nextLine());
                     break;
                 case 6:
                     System.out.println("Returning to the main menu");
@@ -441,6 +458,92 @@ public class FuramaView {
                     break;
             }
         } while (choice != 6);
+    }
+
+    public static Booking inputDataBooking() {
+        Scanner scanner = new Scanner(System.in);
+        Booking newBooking = new Booking();
+        System.out.println("-Enter new BookingID");
+        newBooking.setBookingId(scanner.nextLine());
+        System.out.println("-Enter new bookingDate");
+        String stringDate = scanner.nextLine();
+        Date date = null;
+        try {
+            date = new SimpleDateFormat("dd/MM/yyyy").parse(stringDate);
+        } catch (ParseException e) {
+            System.out.println("Invalid Date");
+        }
+        newBooking.setBookingDate(date);
+        System.out.println("-Enter new StartDate");
+        String stringStartDate = scanner.nextLine();
+        Date startDate = null;
+        try {
+            startDate = new SimpleDateFormat("dd/MM/yyyy").parse(stringStartDate);
+        } catch (ParseException e) {
+            System.out.println("Invalid Date");
+        }
+        newBooking.setStartDate(startDate);
+        System.out.println("-Enter new EndDate");
+        String stringEndDate = scanner.nextLine();
+        Date endDate = null;
+        try {
+            endDate = new SimpleDateFormat("dd/MM/yyyy").parse(stringEndDate);
+        } catch (ParseException e) {
+            System.out.println("Invalid Date");
+        }
+        newBooking.setEndDate(endDate);
+        System.out.println("-Enter new CustomerID");
+        newBooking.setCustomerId(scanner.nextLine());
+        System.out.println("-Enter new ServiceID");
+        newBooking.setServiceId(scanner.nextLine());
+        return newBooking;
+    }
+
+    public static Contract inputDataContract() {
+        Scanner scanner = new Scanner(System.in);
+        Contract newcontract = new Contract();
+        System.out.println("-Enter new contractNumber");
+        newcontract.setContractNumber(scanner.nextLine());
+        System.out.println("-Enter new bookingID");
+        newcontract.setBookingId(scanner.nextLine());
+        System.out.println("-Enter new depositAmount");
+        newcontract.setDepositAmount(Double.parseDouble(scanner.nextLine()));
+        System.out.println("-Enter new totalAmount");
+        newcontract.setTotalAmount(Double.parseDouble(scanner.nextLine()));
+        System.out.println("-Enter new contractDate");
+        String stringDate = scanner.nextLine();
+        Date date = null;
+        try {
+            date = new SimpleDateFormat("dd/MM/yyyy").parse(stringDate);
+        } catch (ParseException e) {
+            System.out.println("Invalid Date");
+        }
+        newcontract.setContractDate(date);
+        return newcontract;
+    }
+
+    public static void displayListBooking(TreeSet<Booking> bookingList) {
+        int i = 1;
+        for (Booking booking : bookingList) {
+            if (booking != null) {
+                System.out.println(i + booking.toString());
+                i++;
+            } else {
+                break;
+            }
+        }
+    }
+
+    public static void displayListContract(Queue<Contract> contractList) {
+        int i = 1;
+        for (Contract contract : contractList) {
+            if (contract != null) {
+                System.out.println(i + contract.toString());
+                i++;
+            } else {
+                break;
+            }
+        }
     }
 
     public static void displayPromotionManagementMenu() {

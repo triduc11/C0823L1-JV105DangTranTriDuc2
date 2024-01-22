@@ -1,6 +1,7 @@
 package Model;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class Contract {
     private String contractNumber;
@@ -17,8 +18,7 @@ public class Contract {
         this.totalAmount = totalAmount;
         this.contractDate = contractDate;
     }
-
-    // Getters and setters
+    public Contract(){}
 
     public String getContractNumber() {
         return contractNumber;
@@ -69,5 +69,18 @@ public class Contract {
                 ", totalAmount=" + totalAmount +
                 ", contractDate=" + contractDate +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Contract)) return false;
+        Contract contract = (Contract) o;
+        return Objects.equals(bookingId, contract.bookingId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(bookingId);
     }
 }

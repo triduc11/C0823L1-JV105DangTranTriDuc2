@@ -1,38 +1,39 @@
 package Service.impl;
 
 import Model.Booking;
-import Service.IBookingService;
+import Repository.impl.BookingRepository;
 
-import java.util.ArrayList;
+import java.util.TreeSet;
 
-public class BookingService implements IBookingService<Booking> {
-    @Override
+public class BookingService {
+    BookingRepository bookingRepository = new BookingRepository();
+
     public void generateInvoice(Booking entity) {
 
     }
 
-    @Override
-    public void add(Booking entity) {
 
+    public void add(Booking booking) {
+        bookingRepository.add(booking);
     }
 
-    @Override
-    public ArrayList<Booking> display() {
-        return null;
+
+    public TreeSet<Booking> display() {
+        return bookingRepository.display();
     }
 
-    @Override
+
     public Booking update(String id) {
         return null;
     }
 
-    @Override
-    public void delete(String id) {
 
+    public void delete(String id) {
+        bookingRepository.delete(id);
     }
 
-    @Override
+
     public Booking findById(String id) {
-        return null;
+        return bookingRepository.findById(id);
     }
 }

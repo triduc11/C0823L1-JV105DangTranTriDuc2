@@ -204,7 +204,7 @@ public class FacilityService implements IFacilityService<Facility> {
 
     public void add(Facility facility) {
         facilityRepository.add(facility);
-        System.out.println(" Added successfully.");
+        System.out.println("Added successfully.");
     }
 
 }

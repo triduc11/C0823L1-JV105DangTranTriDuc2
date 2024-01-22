@@ -1,6 +1,8 @@
 package Repository.impl;
 
 import Model.Facility;
+import Model.House;
+import Model.Room;
 import Model.Villa;
 import Repository.IFacilityRepository;
 
@@ -11,7 +13,11 @@ public class FacilityRepository implements IFacilityRepository<Facility> {
     private static Map<Facility, Integer> facilityUsage = new LinkedHashMap<>();
 
     static {
-        facilityUsage.put(new Villa("SVVL-0001", "Villa Fur", 30, 30, 15, "Villa", 2, "VIP", 40, 2), 0);
+        facilityUsage.put(new Villa("SVVL-0001", "Villa1 Fur", 30, 300, 10, "Villa", 2, "VIP", 40, 2), 0);
+        facilityUsage.put(new Villa("SVVL-0002", "Villa2 Fur", 40, 300, 12, "Villa", 2, "VIP", 40, 2), 0);
+        facilityUsage.put(new Villa("SVVL-0003", "Villa3 Fur", 50, 400, 14, "Villa", 2, "VIP", 40, 3), 0);
+        facilityUsage.put(new House("SVHO-0001","House Fur",20,100,7,"House",3,"VIP",2),0);
+        facilityUsage.put(new Room("SVRO-0001","Room Fur",10,50,2,"Room",3, Collections.singletonList("Drink,Snack,Wine")),0);
     }
 
     @Override

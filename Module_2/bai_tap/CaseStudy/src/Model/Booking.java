@@ -19,6 +19,7 @@ public class Booking implements Comparable<Booking> {
         this.customerId = customerId;
         this.serviceId = serviceId;
     }
+    public Booking(){}
 
     public String getBookingId() {
         return bookingId;
@@ -81,22 +82,16 @@ public class Booking implements Comparable<Booking> {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        }
-        if (!(obj instanceof Booking)) {
-            return false;
-        }
-        Booking other = (Booking) obj;
-        return customerId.equals(other.customerId) && serviceId.equals(other.serviceId)
-                && startDate.equals(other.startDate) && endDate.equals(other.endDate);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Booking)) return false;
+        Booking booking = (Booking) o;
+        return Objects.equals(bookingId, booking.bookingId);
     }
-
 
     @Override
     public int hashCode() {
-        return Objects.hash(customerId, serviceId, startDate, endDate);
+        return Objects.hash(bookingId);
     }
 
     public int compareTo(Booking other) {
