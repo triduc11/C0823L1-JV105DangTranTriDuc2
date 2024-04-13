@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="994c0683-2564-4446-85b8-c1960e2f066d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Final/src/controller/BenhNhanThuongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/controller/BenhNhanVIPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/model/BenhNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/model/BenhNhanThuong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/model/BenhNhanVIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/repository/impl/BenhNhanThuongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/repository/impl/BenhNhanVIPRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/service/impl/BenhNhanThuongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/service/impl/BenhNhanVIPService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/utils/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/utils/Valid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Final/src/view/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TaiKhoanTKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TaiKhoanTTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/bank_accounts.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/TaiKhoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/TaiKhoanTK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/TaiKhoanTT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/impl/TaiKhoanTKRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/impl/TaiKhoanTTRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/impl/TaiKhoanTKService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/impl/TaiKhoanTTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Valid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/src/Controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/src/Controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/src/Data/CustomerFile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/src/Data/CustomerFile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy/src/View/FuramaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy/src/View/FuramaView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2bUxoIUi5HupXBsPhPEzuHnGfmu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/C0823L1-JV105DangTranTriDuc/C0823L1-JV105DangTranTriDuc2/Module_2/bai_tap/Final2/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="994c0683-2564-4446-85b8-c1960e2f066d" name="Changes" comment="" />
+      <created>1706283634056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706283634056</updated>
+      <workItem from="1706283635079" duration="384000" />
+      <workItem from="1706343143308" duration="7000" />
+      <workItem from="1706456206633" duration="9000" />
+      <workItem from="1706526731156" duration="7006000" />
+      <workItem from="1706533876594" duration="595000" />
+      <workItem from="1710162748949" duration="1539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

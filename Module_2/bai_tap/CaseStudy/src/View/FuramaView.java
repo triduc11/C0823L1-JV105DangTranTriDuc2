@@ -130,7 +130,8 @@ public class FuramaView {
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
-            System.out.println("Customer Management Menu:");
+
+         System.out.println("Customer Management Menu:");
             System.out.println("1. Display list customers");
             System.out.println("2. Add new customer");
             System.out.println("3. Edit customer");

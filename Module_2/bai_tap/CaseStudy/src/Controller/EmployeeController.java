@@ -38,6 +38,5 @@ public class EmployeeController {
         } else {
             return "employeeCode does not exist";
         }
-
     }
 }
